@@ -1,0 +1,46 @@
+[
+  {
+    "name": "Metal Chest Armor",
+    "type": "apparel",
+    "quantity": 1,
+    "effect": "",
+    "stats": {
+      "Weight": "1.0",
+      "Value": "10"
+    },
+    "defenses": [
+      {
+        "type": "defense",
+        "value": "5"
+      }
+    ],
+    "equipSlots": [
+      "chest"
+    ]
+  },
+  {
+    "name": "Minuteman Outfit",
+    "type": "apparel",
+    "quantity": 1,
+    "effect": "",
+    "stats": {
+      "Weight": "1.0",
+      "Value": "10"
+    },
+    "defenses": [
+      {
+        "type": "defense",
+        "value": "5"
+      }
+    ],
+    "equipSlots": [
+      "hat",
+      "clothing",
+      "chest",
+      "leftArm",
+      "rightArm",
+      "leftLeg",
+      "rightLeg"
+    ]
+  }
+]
