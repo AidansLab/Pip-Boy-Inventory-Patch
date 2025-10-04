@@ -1,5 +1,3 @@
-// invPatchIndivDitherV45.js (Final Version w/ Navigation Fix & UI Tweak)
-
 (function() {
   // --- Configuration & Constants ---
   const LIST_START_Y = 10, LIST_LINE_HEIGHT = 22, STATS_BOX_X = 220, STATS_BOX_BOTTOM_Y = 205;
@@ -336,16 +334,14 @@
   }
 
   function stop() {
-    // 1. MOST IMPORTANT: Remove the event listener
     Pip.removeListener("knob1", onKnob);
 
-    // 2. Clear out large variables to free up RAM
     inventory = [];
     fileList = [];
     pageCounts = [];
-    currentItemImage = null; // Especially important for the image buffer
+    currentItemImage = null;
 	
-    currentPageIndex = -1; // Reset state
+    currentPageIndex = -1;
 	
 	if (g.reset) g.reset();
   }
