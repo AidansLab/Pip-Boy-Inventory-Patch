@@ -328,7 +328,19 @@
     }
     renderFull();
     Pip.on("knob1", onKnob);
-    Pip.removeSubmenu = function() { Pip.removeListener("knob1", onKnob); };
+    Pip.removeSubmenu = stop;
+  }
+
+  function stop() {
+    // 1. MOST IMPORTANT: Remove the event listener
+    Pip.removeListener("knob1", onKnob);
+
+    // 2. Clear out large variables to free up RAM
+    inventory = [];
+    fileList = [];
+    pageCounts = [];
+    currentItemImage = null; // Especially important for the image buffer
+    currentPageIndex = -1; // Reset state
   }
 
   if (MODEINFO[2] && MODEINFO[2].submenu) {
@@ -345,4 +357,5 @@
     if (!inserted) newSubmenu["ITEMS"] = start;
     MODEINFO[2].submenu = newSubmenu;
   }
+
 })();
