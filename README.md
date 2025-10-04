@@ -4,3 +4,8 @@
 3. Provided in the DATA folder are a prebuilt items list, some sounds, and a few images. Move all of these into the DATA folder on your Pip-Boy (create it if it does not already exist).<BR/>
    Optional: If you wish to modify your inventory, use the HTML tool provided [here](https://github.com/AidanLeeCalamera/Pip-Boy-Inventory-JSON-Generator/tree/main).
 4. Enjoy your inventory, and stock up on Stimpaks and RadAway!
+
+
+# Roadmap
+1. Item viewer with description.
+2. Weapon and Apparel stat compare.
