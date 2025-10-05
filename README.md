@@ -7,7 +7,7 @@
 
 # Known Issues!
 1. Pip UI+ is a bit finicky, it does work, but may not appear like it. When you enter the options menu, use the scroll wheel to update the screen and the menu will appear, if it is stuck on pipuiplus.js loading, restart and try again.
-2. Custom Radio is extremely laggy and unstable. A custom version with the waveform has been included to replace your existing one. Simply delete customradio.min.js from USER/CUSTOM_RADIO, and replace it with the included one.</BR>
+2. Custom Radio is extremely laggy and unstable. A custom version with the waveform removed has been included to replace your existing one. Simply delete customradio.min.js from USER/CUSTOM_RADIO, and replace it with the included one.</BR>
 # Roadmap
 1. Item viewer with description.
 2. Weapon and Apparel stat compare.
