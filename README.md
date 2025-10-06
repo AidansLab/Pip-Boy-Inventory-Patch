@@ -5,6 +5,8 @@
    Optional: If you wish to modify your inventory, use the HTML tool provided [here](https://github.com/AidanLeeCalamera/Pip-Boy-Inventory-JSON-Generator/tree/main).
 4. Enjoy your inventory, and stock up on Stimpaks and RadAway!
 
+# [Video Tutorial](https://www.youtube.com/watch?v=JJStzO6iL48)
+
 # Known Issues!
 1. Pip UI+ is a very finicky, and may or may not work for you. I suggest setting your Pip UI+ settings before installing this patch.
 2. Custom Radio is extremely laggy and unstable. A custom version with the waveform removed has been included to replace your existing one. Simply delete customradio.min.js from USER/CUSTOM_RADIO, and replace it with the included one.</BR>
