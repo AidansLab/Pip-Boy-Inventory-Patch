@@ -13,7 +13,7 @@
 # Roadmap
 1. Item viewer with description.
 2. Weapon and Apparel stat compare.
-
+3. Custom equip sounds
 
 # Making modifications
 You are free to make whatever modifications you want to this patch, you can PR any modifications you've made. I recommend testing your modified patch minified, using [this](https://try.terser.org/) minifier.
