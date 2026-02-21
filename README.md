@@ -15,6 +15,7 @@
 2. Weapon and Apparel stat compare.
 3. Custom equip sounds
 4. Item count interaction (Long press to change item count)
+5. Item addiction/withdrawal 
    
 # Making modifications
 You are free to make whatever modifications you want to this patch, you can PR any modifications you've made. I recommend testing your modified patch minified, using [this](https://try.terser.org/) minifier.
